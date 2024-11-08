@@ -52,7 +52,7 @@ Server-side validation is implemented to check email format, password length, an
 - **Secure Cookies**: Cookies are flagged with HttpOnly, Secure, and SameSite attributes to protect session data.
 
 ## Usage
-- **Register**: Sends user data to the `/register` endpoint, where the password is hashed and stored securely in the database.
+- **Register**: Sends user data to the `/signup` endpoint, where the password is hashed and stored securely in the database.
 - **Login**: Validates user credentials and issues a JWT upon successful login.
 - **Session Validation**: Each request is verified with a session ID stored in the Map. Suspicious sessions can be removed from the Map to prevent unauthorized access.
 
