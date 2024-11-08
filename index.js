@@ -8,7 +8,7 @@ const userRoute = require('./Route/user.js')
 
 
 app.use(cors({
-    origin: "http://localhost:3000",
+    origin: "https://rad-heliotrope-448f23.netlify.app",
     credentials:true,
 }))
 
