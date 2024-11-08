@@ -1,7 +1,7 @@
 const { response } = require("express");
 const User = require('../Model/User')
 const {SESSIONS} = require('./sessionsStore')
-const bcrypt = require('bcrypt');    
+const bcrypt = require('bcryptjs');    
 const crypto = require('crypto');    
 const jwt = require('jsonwebtoken');
 
