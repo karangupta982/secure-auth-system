@@ -60,3 +60,5 @@ Server-side validation is implemented to check email format, password length, an
 - **CSRF Attacks**: Mitigated using a custom CSRF token stored in the session map, allowing real-time session control.
 - **XSS Attacks**: Prevented through input validation and encoding, ensuring sanitized data handling.
 - **Session Hijacking**: Minimized using secure cookie flags and strict session handling practices.
+
+Chech it Live at: [Live](https://secure-auth-system.netlify.app/)
